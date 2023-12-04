@@ -1,0 +1,48 @@
+﻿@page "/contact"
+
+<PageTitle>Contact</PageTitle>
+
+<div class="container">
+    <div class="row">
+        <div class="col text-center mt-4">
+            <h2 class="fs-1 text-uppercase text-dark mb-3">Contact Us</h2>
+            <h4 class="fw-bold">We Are Here to Help</h4>
+            <img src="images/banner.png" class="img-fluid d-block my-4" alt="Contact">
+            <h6 class="text-muted">Found the car of your dreams? Need assistance? Fill out the form and we will get back to you as soon as possible.</h6>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid p-5">
+    <div class="row">
+        <div class="col">
+            <form>
+                <div>
+                    <label for="questionText" class="form-label">Enter your inquery:</label>
+                    <textarea id="questionText" name="question" class="form-control placeholder-form-text" rows="5" placeholder=""></textarea>
+                </div>
+                <div class="mt-3">
+                    <label for="phoneNumber" class="form-label">Phone number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control placeholder-form-text" placeholder="+0">
+                </div>
+                <div class="mt-3">
+                    <label for="email" class="form-label">E-mail:</label>
+                    <input type="email" class="form-control placeholder-form-text" id="email" name="email" placeholder="email@email.com" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We will never share your email with anyone else.</div>
+                </div>
+                <div class="my-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="termsCheckbox" name="terms">
+                    <label class="form-check-label" for="termsCheckbox">I agree to the <a href="placeholder">terms</a> of service.</label>
+                </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid p-5">
+    <div class="row mb-5">
+        <h3 class="text-center mb-0"><img src="images/logo-white.png" class="w-25" /></h3>
+        <h2 class="text-center text-muted fst-italic fw-light">A Collection of Classics</h2>
+    </div>
+</div>

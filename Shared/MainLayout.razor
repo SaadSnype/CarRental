@@ -1,0 +1,46 @@
+﻿@inherits LayoutComponentBase
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col p-0">
+            <div class="page">
+                <div class="sidebar">
+                    <NavMenu />
+                </div>
+                <main>
+                    <div class="top-row px-4">
+                        <a class="btn sig-color border-0" href="links">
+                            <span class="bi-youtube px-1" style="font-size: 2rem;"></span>
+                        </a>
+                        <a class="btn sig-color border-0" href="links">
+                            <span class="bi-twitter px-1" style="font-size: 2rem;"></span>
+                        </a>
+                        <a class="btn sig-color border-0" href="links">
+                            <span class="bi-facebook px-1" style="font-size: 2rem;"></span>
+                        </a>
+                        <a class="btn sig-color border-0" href="links">
+                            <span class="bi-instagram px-1" style="font-size: 2rem;"></span>
+                        </a>
+                    </div>
+                    <div class="content p-0 m-0">
+                        @Body
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid overflow-hidden p-0 m-0">
+    <div class="row py-0 my-0">
+        <div class="col py-0 my-0">
+            <div class="bottom-row text-light px-3 py-4">
+                <p class="m-0">Mr C's' Vehicle Rental Co. 1983 ®</p>
+                <p class="m-0">Oakhill Ridge 5, Lakeview | (+1) 55-55 55 50</p>
+                <NavLink class="btn btn-sm btn-dark border" href="links">
+                    Need help?
+                </NavLink>
+            </div>
+        </div>
+    </div>
+</div>
